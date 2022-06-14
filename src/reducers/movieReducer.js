@@ -24,6 +24,7 @@ const reducer = (state = initialState, action) => {
                   newMovie
               ]
             }
+        
         default:
             return state;
     }
